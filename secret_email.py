@@ -16,7 +16,7 @@ message = "Subject:{}\n\n{}".format(subject, body)
 key = ''
 cipher =''
 
-Brovo = input('Do you want to chpher your message \n yes \n no \n') 
+Brovo = input('Do you want to cipher your message \n yes \n no \n') 
 # this is asking if you want too cipher
 if Brovo == 'yes':
    key = input('please enter your key.')
